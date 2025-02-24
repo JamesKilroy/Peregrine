@@ -1,3 +1,5 @@
+
+
 #pragma once
 
 #include "CoreMinimal.h"
@@ -7,7 +9,7 @@
 UCLASS()
 class INVENTORYFRAMEWORKPLUGIN_API UIDA_Mineral : public UDA_CoreItem
 {
-    GENERATED_BODY()
+	GENERATED_BODY()
 
-    virtual FText GetAssetTypeName() override;
+	virtual FText GetAssetTypeName() override;
 };

@@ -3,7 +3,3 @@
 
 #include "Core/Actors/Parents/A_PickupItemActor.h"
 
-FText AA_PickupItemActor::GetAssetTypeName()
-{
-	return FText(FText::FromString("Pickup Item Actor"));
-}

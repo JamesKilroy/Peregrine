@@ -14,6 +14,5 @@ class INVENTORYFRAMEWORKPLUGIN_API AA_PickupItemActor : public AA_ItemActor
 {
 	GENERATED_BODY()
 
-	virtual FText GetAssetTypeName() override;
 	
 };

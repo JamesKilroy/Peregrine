@@ -6,9 +6,6 @@
 #include "Core/Items/DA_CoreItem.h"
 #include "IDA_Flora.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class INVENTORYFRAMEWORKPLUGIN_API UIDA_Flora : public UDA_CoreItem
 {
