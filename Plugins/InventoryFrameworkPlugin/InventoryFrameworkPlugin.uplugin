@@ -1,0 +1,93 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "3.1.0",
+	"FriendlyName": "Inventory Framework Plugin",
+	"Description": "An inventory framework allowing you to create the perfect inventory for any project.",
+	"Category": "Other",
+	"CreatedBy": "Varian",
+	"CreatedByURL": "",
+	"DocsURL": "https://inventoryframework.github.io",
+	"MarketplaceURL": "com.epicgames.launcher:\n//ue/marketplace/product/a692a7bae5e74787b67abcd2164ed05e",
+	"SupportURL": "",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "InventoryFrameworkPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "InventoryFrameworkEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			],
+			"AdditionalDependencies": [
+				"Blutility"
+			]
+		},
+		{
+			"Name": "IFP_Crafting",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "IFP_Crafting_Editor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		},
+		{
+			"Name": "IFP_ItemQuery",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit"
+		},
+		{
+			"Name": "IFP_ItemQuery_Editor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "IFP_GAS",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "ModularGameplay",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeatures",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "FirstPersonMovementTemplate",
+	"Description": "First Person Movement Template",
+	"Category": "Code Plugins",
+	"CreatedBy": "Jan Kozlowski",
+	"CreatedByURL": "",
+	"DocsURL": "https://docs.google.com/document/d/1EZfw9VuNisUlbwT_mQCTjCJmkc7vom030M0oPUpcJh4/edit?usp=sharing",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "FirstPersonMovementTemplate",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	]
+}

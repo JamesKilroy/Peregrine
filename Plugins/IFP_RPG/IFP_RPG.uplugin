@@ -1,0 +1,33 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.11",
+	"FriendlyName": "IFP_RPG",
+	"Description": "RPG style inventory example based on IFP",
+	"Category": "Other",
+	"CreatedBy": "Varian",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "IFP_RPG",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "InventoryFrameworkPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "IFP_CommonAssets",
+			"Enabled": true
+		}
+	]
+}
