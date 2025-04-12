@@ -22,11 +22,6 @@
 			]
 		},
 		{
-			"Name": "TDxUnrealEditor",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/69b0440971b24321b1ccf3bc2d370b79"
-		},
-		{
 			"Name": "BlendImporter",
 			"Enabled": true
 		},
@@ -139,6 +134,41 @@
 		{
 			"Name": "ErrantLandscape",
 			"Enabled": false
+		},
+		{
+			"Name": "VehicleSystemPlugin",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/9577489aa3264ecf94142dad1bc2956c"
+		},
+		{
+			"Name": "Voxel",
+			"Enabled": true
+		},
+		{
+			"Name": "VoxelPluginInstaller",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/dcb8f76613ce49cda4e70fb602513ce4"
+		},
+		{
+			"Name": "PixWinPlugin",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "PlasticSourceControl",
+			"Enabled": false
+		},
+		{
+			"Name": "LogViewerPro",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e473b6f483ba43a2a7ff13dd5be5a1bc"
+		},
+		{
+			"Name": "QuickActions",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/01e9d950f52648ee96e9b01711df283e"
 		}
 	]
 }

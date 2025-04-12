@@ -17,7 +17,7 @@ struct FRandomItemCountFragment : public FItemFragment
 	GENERATED_BODY()
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
-	FIntPoint MinMaxCount;
+	FIntPoint MinMaxCount = FIntPoint(0, 0);
 
 	virtual bool IsCompatibleWithItem(UObject* ItemOwner, const FS_InventoryItem& Item) override;
 
